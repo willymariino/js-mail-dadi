@@ -14,6 +14,7 @@ const mail = (prompt('inserisci la tua mail'));
 // controlla se la mail è presente nella lista
 
 
+
 for (let i = 0; mail < mailingList.length; i++) {
     if (mail < mailingList.length) {
         console.log(mail);
