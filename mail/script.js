@@ -11,7 +11,12 @@ const mailingList = [
 ];
 
 const mail = (prompt('inserisci la tua mail'));
-// controlla se la mail è presente nella lista
+//  controlla che sia nella lista di chi può accedere
+//  stampa un messaggio appropriato sull’esito del controllo.
+
+
+
+
 
 
 
