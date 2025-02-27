@@ -16,8 +16,8 @@ const mail = (prompt('inserisci la tua mail'));
 
 
 for (let i = 0; i < mailingList.length; i++) {
-    const mail = mailingList[i];
-    if (mail === mailingList[i]) {
+    const currentmail = mailingList[i];
+    if (currentmail === mail[i]) {
         mailFound = true;
     }
     console.log(mailFound);
