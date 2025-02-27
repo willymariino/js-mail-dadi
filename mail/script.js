@@ -11,21 +11,20 @@ const mailingList = [
 ];
 
 const mail = (prompt('inserisci la tua mail'));
-//  controlla che sia nella lista di chi può accedere
+//  controlla che sia nella lista di chi può accedere senza usare la proprietà includes
 //  stampa un messaggio appropriato sull’esito del controllo.
 
-
-
-
-
-
-
-for (let i = 0; mail < mailingList.length; i++) {
-    if (mail < mailingList.length) {
-        console.log(mail);
+let mailFound = false;
+for (let i = 0; i < mailingList.length; i++) {
+    const mail = mailingList[i];
+    if (mail === mailingList[i]) {
+        mailFound = true;
     }
-
-    if (mail > mailingList.length) {
-        console.log('invitato non presente.')
-    }
+    console.log(mailFound);
 }
+
+
+
+
+
+
