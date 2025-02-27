@@ -16,11 +16,11 @@ const mail = (prompt('inserisci la tua mail'));
 
 
 for (let i = 0; i < mailingList.length; i++) {
-    const currentmail = mailingList[i];
-    if (currentmail === mail[i]) {
-        mailFound = true;
+    const currentMail = mailingList[i];
+    if (currentMail === mail[i]) {
+        currentMail = true;
     }
-    console.log(mailFound);
+    console.log(mail);
 }
 
 
