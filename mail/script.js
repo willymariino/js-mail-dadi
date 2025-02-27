@@ -14,13 +14,12 @@ const mail = (prompt('inserisci la tua mail'));
 //  controlla che sia nella lista di chi può accedere senza usare la proprietà includes
 //  stampa un messaggio appropriato sull’esito del controllo.
 
-
+let mailFound = false;
 for (let i = 0; i < mailingList.length; i++) {
-    const currentMail = mailingList[i];
-    if (currentMail === mail[i]) {
-        currentMail = true;
+    if (mail === mailingList[i]) {
+        mailFound = true;
     }
-    console.log(mail);
+    console.log(mailFound);
 }
 
 
