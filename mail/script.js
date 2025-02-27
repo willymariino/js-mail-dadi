@@ -19,7 +19,7 @@ for (let i = 0; mail < mailingList.length; i++); {
         console.log(mail);
     }
 
-    else if (mail > mailingList.length); {
+    else (mail > mailingList.length); {
         console.log('invitato non presente.')
     }
 }
